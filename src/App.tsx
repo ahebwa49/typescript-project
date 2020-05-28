@@ -24,3 +24,8 @@ function App() {
 }
 
 export default App;
+
+export const Header: React.FC = () => {
+  const name = 'Fred';
+  return <div>Hello {name}</div>;
+};

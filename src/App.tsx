@@ -26,6 +26,12 @@ function App() {
 export default App;
 
 export const Header: React.FC = () => {
-  const name = 'Fred';
-  return <div>Hello {name}</div>;
+  const name: string = 'Fred';
+  return <div>Hello</div>;
 };
+
+function sayHello(name: string) {
+  console.log(`Hello ${name}`);
+}
+
+sayHello(9);
